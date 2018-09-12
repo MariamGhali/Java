@@ -1,0 +1,124 @@
+package edu.wmich.cs1120.MG.LA2;
+
+public class TreeDataStructure implements Node {
+
+	private String parentID;
+	private String myID;
+	private TreeDataStructure leftChild;
+	private TreeDataStructure rightChild;
+
+	public TreeDataStructure(String myId) {
+		// TODO Auto-generated constructor stub
+		myID= myId;
+		
+	}
+ 
+	
+	@Override
+	public boolean addChild(String ID, String parentID) {
+		// TODO Auto-generated method stub
+	
+		if (parentID.equals(myID)){
+			if(leftChild == null){
+				leftChild = new TreeDataStructure(ID);
+				leftChild.setParent(parentID);
+				return true;
+			}
+			if(rightChild == null){
+				rightChild = new TreeDataStructure(ID);
+				rightChild.setParent(parentID);
+				return true;
+			}
+		}
+		if(leftChild != null){
+			 if (leftChild.addChild(ID, parentID)== false){
+				 if(rightChild != null)
+					 rightChild.addChild(ID, parentID); 
+				 
+			 }
+		}
+		return false;
+	}
+	
+	public void setParent(String parent){
+		parentID = parent;
+	}
+
+	@Override
+	public Node find(String value) {
+		// TODO Auto-generated method stub]
+		Node node ;	
+		if (myID.equals(value)){
+			return this;
+		}
+		else if (leftChild.getId().equals(value)) {
+            return leftChild;
+        }
+         else if (rightChild.getId().equals(value)) {
+        	return rightChild;
+         }
+
+        	
+        	else{  node=leftChild.find(value);
+        			if (node == null){
+        				return  rightChild.find(value);
+        			}
+        			else {
+        				return node;
+        			}
+        		}
+        	}
+	
+        		
+
+	@Override
+	public Node getParent() {
+		// TODO Auto-generated method stub
+	
+			
+		return;
+	}
+
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		if (leftChild!=null || rightChild!= null){
+			return 1 + leftChild.size() + rightChild.size();
+		}
+		if(leftChild!= null){
+			 return 1 + leftChild.size();
+			
+		}
+		if (rightChild!= null){
+			 return 1 + rightChild.size();
+		}
+		else 
+		return 1;
+	}
+
+	@Override
+	public String getId() {
+		// TODO Auto-generated method stub
+		return myID;
+	}
+
+	@Override
+	public void printTree() {
+		// TODO Auto-generated method stub
+
+		System.out.print(myID);
+		if(leftChild!= null)
+			System.out.print(leftChild.getId());
+		if (rightChild!= null)
+			System.out.print(rightChild.getId());
+		
+		System.out.println();
+		
+		if (leftChild!= null)
+			leftChild.printTree();
+		
+		if (rightChild!= null)
+			rightChild.printTree();	
+	}
+	
+}

@@ -1,0 +1,46 @@
+package heaps;
+
+public class MinHeap {
+	Node root = null;
+	//Node temp = root;
+	
+	public Node insert(Node temp, String last){
+		
+		if(root == null){
+			root = new Node();
+			root.data[0] = last;
+			root.sizeOfSubTree++;
+			return root;
+		}
+		if (temp.leftChild != null && temp.rightChild != null){
+			if (temp.sizeOfSubTree%2 == 0){ //even number got to left 
+				temp.sizeOfSubTree++;
+				insert(temp.rightChild, last);
+				//return temp.leftChild;
+			}else {							//the size is odd, insert to right
+				temp.sizeOfSubTree++;
+				insert(temp.leftChild, last);
+				
+			}
+		}
+		if(temp.leftChild == null){
+			temp.leftChild = new Node();
+			temp.leftChild.parent = temp;
+			temp.leftChild.data[0] = last;
+			temp.sizeOfSubTree++;
+			return temp.leftChild;
+			//insert(temp.leftChild, last);
+		}else{
+			temp.rightChild = new Node();
+			temp.rightChild.parent = temp;
+			temp.rightChild.data[0] = last;
+			temp.sizeOfSubTree++;
+			return temp.rightChild;
+		}
+	}
+//	public static String heapify (){
+//		
+//		return null;
+//		
+//	}
+}

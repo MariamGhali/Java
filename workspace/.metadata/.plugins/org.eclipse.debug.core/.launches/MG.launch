@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/LA5Ghali/src/edu/wmich/cs1120/Ghali/LA5/MG.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="edu.wmich.cs1120.Ghali.LA5.MG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="LA5Ghali"/>
+</launchConfiguration>

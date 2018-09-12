@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.quiz.mwb5468.Questions.BlankFill"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.quiz.mwb5468.Questions.ShortAns"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.quiz.mwb5468.Questions.TrueFalse"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.quiz.mwb5468.Questions.IQuestion"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.quiz.mwb5468.Quiz.QuizUI"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.quiz.mwb5468.Quiz.IQuiz"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.quiz.mwb5468.Quiz.Quiz"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.la6.GhaliMiyaji.lists.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.EmptyStackException"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.spring16.la6.GhaliMiyaji.lists.IList"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.SP16.LA7.GhaliMiyaji.lists.IList"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.SP16.LA7.GhaliMiyaji.lists.Node"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.SP16.LA7.GhaliMiyaji.lists.LinkedList"/>
+<fullyQualifiedTypeName name="edu.wmich.cs1120.SP16.LA7.GhaliMiyaji.stacks.IStack"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="heaps.Node"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

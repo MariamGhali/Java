@@ -1,0 +1,128 @@
+0	000	000	NUL	(Null char.)
+1	001	001	SOH	(Start of Header)
+2	002	002	STX	(Start of Text)
+3	003	003	ETX	(End of Text)
+4	004	004	EOT	(End of Transmission)
+5	005	005	ENQ	(Enquiry)
+6	006	006	ACK	(Acknowledgment)
+7	007	007	BEL	(Bell)
+8	010	008	BS	(Backspace)
+9	011	009	HT	(Horizontal Tab)
+10	012	00A	LF	(Line Feed)
+11	013	00B	VT	(Vertical Tab)
+12	014	00C	FF	(Form Feed)
+13	015	00D	CR	(Carriage Return)
+14	016	00E	SO	(Shift Out)
+15	017	00F	SI	(Shift In)
+16	020	010	DLE	(Data Link Escape)
+17	021	011	DC1	(XON) (Device Control 1)
+18	022	012	DC2	(Device Control 2)
+19	023	013	DC3	(XOFF)(Device Control 3)
+20	024	014	DC4	(Device Control 4)
+21	025	015	NAK	(Negativ Acknowledgemnt)
+22	026	016	SYN	(Synchronous Idle)
+23	027	017	ETB	(End of Trans. Block)
+24	030	018	CAN	(Cancel)
+25	031	019	EM	(End of Medium)
+26	032	01A	SUB	(Substitute)
+27	033	01B	ESC	(Escape)
+28	034	01C	FS	(File Separator)
+29	035	01D	GS	(Group Separator)
+30	036	01E	RS	(Reqst to Send)(Rec. Sep.)
+31	037	01F	US	(Unit Separator)
+32	040	020	SP	(Space)
+33	041	021	!	(exclamation mark)
+34	042	022	"	(double quote)
+35	043	023	#	(number sign)
+36	044	024	$	(dollar sign)
+37	045	025	%	(percent)
+38	046	026	&	(ampersand)
+39	047	027	'	(single quote)
+40	050	028	(	(left/open parenthesis)
+41	051	029	)	(right/closing parenth.)
+42	052	02A	*	(asterisk)
+43	053	02B	+	(plus)
+44	054	02C	,	(comma)
+45	055	02D	-	(minus or dash)
+46	056	02E	.	(dot)
+47	057	02F	/	(forward slash)
+48	060	030	0	
+49	061	031	1	
+50	062	032	2	
+51	063	033	3	
+52	064	034	4	
+53	065	035	5	
+54	066	036	6	
+55	067	037	7	
+56	070	038	8	
+57	071	039	9	
+58	072	03A	:	(colon)
+59	073	03B	;	(semi-colon)
+60	074	03C	<	(less than)
+61	075	03D	=	(equal sign)
+62	076	03E	>	(greater than)
+63	077	03F	?	(question mark)
+64	100	040	@	(AT symbol)
+65	101	041	A	
+66	102	042	B	
+67	103	043	C	
+68	104	044	D	
+69	105	045	E	
+70	106	046	F	
+71	107	047	G	
+72	110	048	H	
+73	111	049	I	
+74	112	04A	J	
+75	113	04B	K	
+76	114	04C	L	
+77	115	04D	M	
+78	116	04E	N	
+79	117	04F	O	
+80	120	050	P	
+81	121	051	Q	
+82	122	052	R	
+83	123	053	S	
+84	124	054	T	
+85	125	055	U	
+86	126	056	V	
+87	127	057	W	
+88	130	058	X	
+89	131	059	Y	
+90	132	05A	Z	
+91	133	05B	[	(left/opening bracket)
+92	134	05C	\	(back slash)
+93	135	05D	]	(right/closing bracket)
+94	136	05E	^	(caret/circumflex)
+95	137	05F	_	(underscore)
+96	140	060	`
+97	141	061	a
+98	142	062	b
+99	143	063	c
+100	144	064	d
+101	145	065	e
+102	146	066	f
+103	147	067	g
+104	150	068	h
+105	151	069	i
+106	152	06A	j
+107	153	06B	k
+108	154	06C	l
+109	155	06D	m
+110	156	06E	n
+111	157	06F	o
+112	160	070	p
+113	161	071	q
+114	162	072	r
+115	163	073	s
+116	164	074	t
+117	165	075	u
+118	166	076	v
+119	167	077	w
+120	170	078	x
+121	171	079	y
+122	172	07A	z	
+123	173	07B	{	(left/opening brace)
+124	174	07C	|	(vertical bar)
+125	175	07D	}	(right/closing brace)
+126	176	07E	~	(tilde)
+127	177	07F	DEL	(delete)

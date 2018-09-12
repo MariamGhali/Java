@@ -1,0 +1,31 @@
+package edu.wmich.cs1120.Ghali.LA5;
+
+import java.util.Scanner;
+
+public class PigLatin implements IPigLatin{
+
+	protected String input;
+	
+	
+	
+	@Override
+	public void setInput(String myInput){
+		input = myInput;
+	}
+	
+	@Override
+	public String textToPigLatin(){
+		System.out.println("Your text in pigLatin is:  ");
+		String finalInput;
+		char []  array = input.toCharArray();
+		char firstChar = array[0];
+		for (int i = 0; i < array.length-1; i++) {
+	        array[i] = array[i+1];
+	    }
+		array[array.length-1] = firstChar;
+		finalInput = String.valueOf(array) + "ay"; 
+
+		System.out.println(finalInput);
+    return finalInput;
+	}
+}

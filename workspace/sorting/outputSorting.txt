@@ -1,0 +1,11 @@
+Enter the number of the letters: 
+The number is: 9
+Last name is : Ghali
+The unsorted array is: f y i w s h c x b 
+
+The unsorted Linked List is: 
+Sorting using array
+Bubble Sort: h i b c f s w x y 
+Insertion Sort: h i b c f s w x y 
+Selection Sort: h i b c f s w x y 
+Merge Sort: h i b c f s w x y 

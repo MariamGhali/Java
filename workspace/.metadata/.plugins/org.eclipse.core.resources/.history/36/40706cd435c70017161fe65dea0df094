@@ -1,0 +1,34 @@
+package heaps;
+
+
+public class MaxHeap {
+
+	int lastAddedIndex = -1;
+	fullName [] arrayOfNames;
+	public void maxHeap (int size){		//to get the size of the arrays for all the names 
+		arrayOfNames = new fullName[size];
+	}
+	public int add(String x , String y){
+		if(lastAddedIndex >= arrayOfNames.length){ //if the last index that isadded is >= 55, return -1 
+			return -1;
+		}else {
+			arrayOfNames[lastAddedIndex+1] = new fullName(x,y); //if not add to the next position in the array
+			return ++lastAddedIndex;
+		}
+	}
+	public void heapify(int index){
+		int i=0;
+		String swap = null;
+		if (index < 0 && index > arrayOfNames.length)
+			return;
+		if ((index-1)/2 <0 ) //parents
+			return;
+	
+		if (arrayOfNames[(index-1)/2].firstName.compareTo(arrayOfNames[index].firstName)<0){
+			swap =arrayOfNames[(index-1)/2].firstName;
+			arrayOfNames[(index-1)/2].firstName = arrayOfNames[index].firstName ;
+			arrayOfNames[index].firstName = swap;
+			heapify((index-1)/2); //parent index 
+		}
+	}
+}

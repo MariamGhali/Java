@@ -1,0 +1,17 @@
+package edu.wmich.cs1120.MGhali.LA1;
+import java.io.File;
+
+
+public class LA1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		File myFile = new File("C:\\Users\\mariam\\Desktop\\accountDatabase");
+		System.out.println(myFile);
+		
+	
+	}
+
+}
+   

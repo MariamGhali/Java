@@ -1,0 +1,24 @@
+package edu.wmich.cs1120.SP16.LA7.GhaliMiyaji.application;
+
+import edu.wmich.cs1120.SP16.LA7.GhaliMiyaji.lists.IList;
+
+public class Application implements IApplication {
+
+	@Override
+	public IList readInputFile(){
+		
+		return null;
+	}
+	@Override
+	
+	public void writeOutputFile(IList output){
+		
+	}
+
+	@Override
+	public String reverseString(String s){
+		
+		return null;
+	}
+
+}

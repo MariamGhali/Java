@@ -1,0 +1,66 @@
+package edu.wmich.cs1120.spring16.la6.GhaliMiyaji.application;
+
+import java.io.*;
+
+import edu.wmich.cs1120.spring16.la6.GhaliMiyaji.lists.*;
+
+public class Application implements IApplication {
+	protected IList list;
+	protected String[] array;
+	
+	public IList readInputFile(){
+		boolean endOfFile = false;
+		try
+		{
+		FileInputStream fstream = new FileInputStream("input.bin");
+		DataInputStream inputFile = new DataInputStream(fstream);
+			while(!endOfFile)
+			{
+				try
+				{
+					 //[\\r\\n]+
+					String str = inputFile.readUTF();
+					System.out.println(str);
+					list.add(str);
+				}
+				catch(EOFException e)
+				{
+					endOfFile = true;
+				}
+			}
+		}
+		catch(IOException e)
+		{
+			System.out.println(e.getMessage());
+		}
+		return list;
+	}
+	
+	public void writeOutputFile(IList output){
+		try{
+			FileOutputStream fstream = new FileOutputStream("output.bin");
+			DataOutputStream outputFile = new DataOutputStream(fstream);
+			for (int i = 0; i<list.size();i++ ){
+				outputFile.writeUTF(list.get(i));
+				}
+			outputFile.close();
+			}
+			catch(IOException e)
+			{
+				System.out.println(e.getMessage());
+			}
+	}
+	
+	
+	
+	public String reverseString(String s){
+		/**
+		array = new String[(int)inputFile.readUTF().split(" ").length];
+		List<String> strList = Arrays.asList(array);
+		Collections.reverse(strList);//reverse strList
+		array = (String[]) strList.toArray();
+		return array.toString();*/
+		return null;
+	}
+
+}

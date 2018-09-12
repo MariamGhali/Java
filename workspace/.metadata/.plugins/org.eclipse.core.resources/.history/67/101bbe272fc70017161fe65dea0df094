@@ -1,0 +1,12 @@
+package heaps;
+
+public class fullName {
+
+	String firstName;
+	String lastName;
+	
+	public void fullName (String x, String y ){
+		firstName= x;
+		lastName = y;		
+	}
+}
